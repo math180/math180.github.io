@@ -1,4 +1,38 @@
 * {
-    background-color: azure;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: rgb(164, 187, 187);
     margin: 0%;
+}
+
+li {
+    list-style-type: none;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: justify;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: justify;
+}
+
+#links {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+    
+}
+
+a {
+    cursor: pointer;
 }
