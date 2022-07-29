@@ -36,3 +36,18 @@ li {
 a {
     cursor: pointer;
 }
+
+#portfolio {
+    text-align: center;
+}
+
+#playground-functions {
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: beige;
+}
+
+button {
+    margin-left: 100px;
+}
