@@ -51,3 +51,9 @@ a {
 button {
     margin-left: 100px;
 }
+
+#pixels-art {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: beige;
+}
