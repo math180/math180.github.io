@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/trybeWarts/magic-g6ffc5cf0a_1920.jpg');
+  background-size: cover;
+  background-position: 100% 80%;
+}
+
+p, h1, h2, h3, h4, li, select, strong, label, .radio1, input, #text, body {
+  color: rgb(97, 107, 100) !important;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: flex-end;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+  margin-left: 30px;
+}
+
+#trybewarts-header-title {
+  margin-right: 24rem;
+  font-size: 2.4rem;
+  color: white !important;
+  font-family: 'Love Ya Like A Sister', 'Inknut Antiqua', 'Carter One';
+}
+
+.padding {
+  margin-right: 5px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+#img-tryberwarts {
+  display: flex;
+}
+
+.side-by-side {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+}
+
+.join {
+  margin-bottom: 5px;
+}
+
+#checkbox-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 20px;
+}
+
+#term {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#textarea {
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(49, 48, 48);
+  padding: 10px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.form-control {
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.class-input {
+  margin-bottom: 8rem;
+  height: 40px;
+  width: 200px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid rgb(195, 201, 206);
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.label {
+  margin-right: 3px;
+}
+
+#content-check {
+  display: flex;
+  justify-content: space-between;
+}
+
+#checkbox {
+  margin-left: 20px;
+}
+
+.radio1 {
+  margin: 5px;
+}
+
+.checkbox-style {
+  margin: 5px;
+}
+
+.input-group {
+  width: 90%;
+  display: flex;
+}
+
+.order-term {
+  margin-left: 10px;
+}
+
+#counter {
+  text-align: right;
+}

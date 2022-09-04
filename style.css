@@ -1,5 +1,6 @@
 * {
     font-family: Montserrat;
+    padding: 3px;
 }
 
 body {
@@ -30,30 +31,33 @@ li {
     color: white;
     background-color: rgba(0, 0, 0, 0.623);
     text-align: center;
+    padding: 0;
     
 }
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
-#portfolio {
+#portfolio  {
     text-align: center;
 }
 
-#playground-functions {
+#contents {
     display: flex;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: beige;
-}
-
-button {
-    margin-left: 100px;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
 }
 
 #pixels-art {
     text-decoration: none;
     color: rgb(0, 0, 0);
     background-color: beige;
+}
+
+.btn-outline-primary {
+    text-decoration: none;
+    color: white;
 }
