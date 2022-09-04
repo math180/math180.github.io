@@ -49,6 +49,7 @@ a {
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
+    padding: 20px;
 }
 
 #pixels-art {
